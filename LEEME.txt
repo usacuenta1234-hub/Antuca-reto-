@@ -1,0 +1,18 @@
+EL RETO DE LA ANTUCA — SITIO ESTÁTICO GRATUITO
+
+Sube index.html a un repositorio público de GitHub y activa GitHub Pages:
+1. Crea un repositorio público.
+2. Sube index.html a la raíz.
+3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Espera la URL pública.
+
+Cuando tengas la URL, los QR deben apuntar a:
+URL_PUBLICA/?qr=1
+URL_PUBLICA/?qr=2
+URL_PUBLICA/?qr=3
+URL_PUBLICA/?qr=4
+
+El código web detecta el número del QR y abre su pregunta. Guarda el progreso y la participación semanal en localStorage del navegador.
+Limitación honesta: no hay SMS, base de datos ni validación central de premios. Alguien puede evitar el límite semanal usando otro dispositivo o borrando los datos del navegador. El código de premio no se valida en caja por servidor. Para una promoción pequeña, se puede hacer un piloto y el personal revisa el canje manualmente.
+
+No imprimas los QR definitivos hasta tener la URL pública.
